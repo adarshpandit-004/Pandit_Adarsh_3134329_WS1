@@ -14,9 +14,16 @@ public class Word {
  }
 
  // Stub method for contains - will be implemented in part three
- public boolean contains(char symbol) {
-     return false; // Placeholder, will be implemented in part three
- }
+//Implemented contains method
+public boolean contains(char symbol) {
+  for (char letter : letters) {
+      if (letter == symbol) {
+          return true;
+      }
+  }
+  return false;
+}
+
 
  // Stub method for length - will be implemented in part three
  public int length() {
