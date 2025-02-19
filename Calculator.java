@@ -31,6 +31,15 @@ public class Calculator {
         }
         return (double) gradesTotal(grades) / grades.length;
     }
-
-
+    // Counts how many grades are below the minimum passing grade
+    public int countFails(int[] grades, int minGrade) {
+        int count = 0;
+        for (int grade : grades) {
+            if (grade < minGrade) {
+                count++;
+            }
+        }
+        return count;
+    }
+}
 }
