@@ -15,4 +15,14 @@ public class Calculator {
         }
         return max;
     }
+    
+    // Returns the sum of all grades in the array
+    public int gradesTotal(int[] grades) {
+        int total = 0;
+        for (int grade : grades) {
+            total += grade;
+        }
+        return total;
+    }
+
 }
