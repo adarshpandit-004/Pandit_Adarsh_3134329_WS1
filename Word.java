@@ -26,9 +26,10 @@ public boolean contains(char symbol) {
 
 
  // Stub method for length - will be implemented in part three
- public int length() {
-     return 0; // Placeholder, will be implemented in part three
- }
+//Implemented length method
+public int length() {
+ return letters.length;
+}
 
  // Stub method for getLetters - will be implemented in part three
  public char[] getLetters() {
