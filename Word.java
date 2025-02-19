@@ -9,9 +9,15 @@ public class Word {
  private char[] letters;
 
  // Constructor to initialize the 'letters' attribute
- public Word(char[] letters) {
-     this.letters = letters; // Assigning the input letters array to the instance variable
- }
+//Constructor implementation ensuring letters is not null
+public Word(char[] letters) {
+  if (letters == null) {
+      this.letters = new char[0]; // Initialize with empty array if null is passed
+  } else {
+      this.letters = letters;
+  }
+}
+
 
  
 //Implemented contains method
