@@ -15,7 +15,7 @@ public class Calculator {
         }
         return max;
     }
-    
+
     // Returns the sum of all grades in the array
     public int gradesTotal(int[] grades) {
         int total = 0;
@@ -24,6 +24,7 @@ public class Calculator {
         }
         return total;
     }
+
     // Returns the average of all grades in the array
     public double gradesAverage(int[] grades) {
         if (grades.length == 0) {
@@ -31,6 +32,7 @@ public class Calculator {
         }
         return (double) gradesTotal(grades) / grades.length;
     }
+
     // Counts how many grades are below the minimum passing grade
     public int countFails(int[] grades, int minGrade) {
         int count = 0;
@@ -41,5 +43,4 @@ public class Calculator {
         }
         return count;
     }
-}
 }
