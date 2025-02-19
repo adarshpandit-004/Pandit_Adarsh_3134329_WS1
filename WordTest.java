@@ -1,9 +1,4 @@
 package griffith;
-
-// WordTest.java
-// Name: [Your Name]
-// Student Number: [Your Student Number]
-
 import static org.junit.jupiter.api.Assertions.*; // Importing necessary JUnit assertion methods
 import org.junit.jupiter.api.Test;
 
