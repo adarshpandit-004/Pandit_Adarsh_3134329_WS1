@@ -2,11 +2,6 @@ package griffith;
 //Word.java
 //Name: Adarsh Pandit
 //Student Number: 3134329
-
-//Word.java
-//Name: [Your Name]
-//Student Number: [Your Student Number]
-
 public class Word {
 
  // Attribute to hold the letters of the word
