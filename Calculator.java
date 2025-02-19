@@ -24,5 +24,13 @@ public class Calculator {
         }
         return total;
     }
+    // Returns the average of all grades in the array
+    public double gradesAverage(int[] grades) {
+        if (grades.length == 0) {
+            return 0.0; // Handle empty array case
+        }
+        return (double) gradesTotal(grades) / grades.length;
+    }
+
 
 }
