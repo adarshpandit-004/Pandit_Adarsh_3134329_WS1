@@ -13,7 +13,7 @@ public class Word {
      this.letters = letters; // Assigning the input letters array to the instance variable
  }
 
- // Stub method for contains - will be implemented in part three
+ 
 //Implemented contains method
 public boolean contains(char symbol) {
   for (char letter : letters) {
@@ -25,14 +25,15 @@ public boolean contains(char symbol) {
 }
 
 
- // Stub method for length - will be implemented in part three
 //Implemented length method
 public int length() {
  return letters.length;
 }
 
- // Stub method for getLetters - will be implemented in part three
- public char[] getLetters() {
-     return null; // Placeholder, will be implemented in part three
- }
+ 
+//Implemented getLetters method
+public char[] getLetters() {
+ return letters;
+}
+
 }
