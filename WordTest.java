@@ -3,7 +3,6 @@ import static org.junit.jupiter.api.Assertions.*; // Importing necessary JUnit a
 import org.junit.jupiter.api.Test;
 
 public class WordTest {
-
     // Test for contains method
     @Test
     public void testContains() {
